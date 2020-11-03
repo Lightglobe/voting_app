@@ -6,7 +6,6 @@ export default class ProductItem extends Component {
 
         //custom method bindings here
         this.handleUpVote = this.handleUpVote.bind(this);
-        
     }
     handleUpVote(){
         this.props.onVote(this.props.id);
